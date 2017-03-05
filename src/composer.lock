@@ -1,0 +1,322 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "31b5c4e35be2dcd70c6bf4370cfb264c",
+    "packages": [
+        {
+            "name": "comodojo/cookies",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comodojo/cookies.git",
+                "reference": "abe39ed4c63cd54d7b4c65db68481a9b0ed582dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comodojo/cookies/zipball/abe39ed4c63cd54d7b4c65db68481a9b0ed582dd",
+                "reference": "abe39ed4c63cd54d7b4c65db68481a9b0ed582dd",
+                "shasum": ""
+            },
+            "require": {
+                "comodojo/exceptions": "@stable",
+                "php": ">=5.3.0",
+                "phpseclib/phpseclib": "0.3.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comodojo\\Cookies\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Giovinazzi",
+                    "email": "marco.giovinazzi@comodojo.org",
+                    "homepage": "http://jme.altervista.org"
+                }
+            ],
+            "description": "Minimalist and extensible library to manage cookies",
+            "homepage": "https://comodojo.org",
+            "keywords": [
+                "aes",
+                "comodojo",
+                "cookie",
+                "cookies"
+            ],
+            "time": "2015-10-17T18:35:27+00:00"
+        },
+        {
+            "name": "comodojo/exceptions",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comodojo/exceptions.git",
+                "reference": "5eb2c462b04a08e109865429fbdb4e36cce358cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comodojo/exceptions/zipball/5eb2c462b04a08e109865429fbdb4e36cce358cf",
+                "reference": "5eb2c462b04a08e109865429fbdb4e36cce358cf",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0",
+                "scrutinizer/ocular": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comodojo\\Exception\\": "src/Exception"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Giovinazzi",
+                    "email": "marco.giovinazzi@comodojo.org",
+                    "homepage": "http://jme.altervista.org"
+                },
+                {
+                    "name": "Marco Castiello",
+                    "email": "marco.castiello@gmail.com"
+                }
+            ],
+            "description": "Common exceptions for comodojo libs and frameworks",
+            "homepage": "https://comodojo.org",
+            "keywords": [
+                "comodojo",
+                "exception"
+            ],
+            "time": "2016-07-27T23:42:58+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v5.2.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "b18cb98131bd83103ccb26a888fdfe3177b8a663"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/b18cb98131bd83103ccb26a888fdfe3177b8a663",
+                "reference": "b18cb98131bd83103ccb26a888fdfe3177b8a663",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "suggest": {
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.phpmaileroauth.php",
+                    "class.phpmaileroauthgoogle.php",
+                    "class.smtp.php",
+                    "class.pop3.php",
+                    "extras/EasyPeasyICS.php",
+                    "extras/ntlm_sasl_client.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2017-01-09T09:33:47+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "0.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "~4.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
+                "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP < 4.3.3."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Crypt": "phpseclib/",
+                    "File": "phpseclib/",
+                    "Math": "phpseclib/",
+                    "Net": "phpseclib/",
+                    "System": "phpseclib/"
+                },
+                "files": [
+                    "phpseclib/Crypt/Random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "phpseclib/"
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2015-01-28T21:50:33+00:00"
+        },
+        {
+            "name": "websoftwares/session",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/websoftwares/Session.git",
+                "reference": "7535ff1637277ac4ec09b48cac64f09dad961eb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/websoftwares/Session/zipball/7535ff1637277ac4ec09b48cac64f09dad961eb4",
+                "reference": "7535ff1637277ac4ec09b48cac64f09dad961eb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "lboynton/memcached-json-session-save-handler": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "lboynton/memcached-json-session-save-handler": "Handy for reading the session in other languages."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Websoftwares": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "DBAD"
+            ],
+            "authors": [
+                {
+                    "name": "Boris Verhaaff",
+                    "email": "boris@websoftwar.es",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP 5.3+ Session Class that accepts optional save handlers.",
+            "keywords": [
+                "session"
+            ],
+            "time": "2013-08-26 07:34:47"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "websoftwares/session": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
