@@ -35,7 +35,7 @@ var apiMail = function (email) {
         url: 'http://apilayer.net/api/check?access_key=' + CONFIG.get('ACESS_KEY') + '&email=' + email,
         dataType: 'jsonp',
         success: function(json) {
-            if (json.format_valid) {
+            if (json.format_valid && json.smtp_check) {
                 valida = true;
                 score = json.score;
                 CONFIG.get('EMAIL_RETURN').addClass("success");
